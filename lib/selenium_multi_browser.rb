@@ -1,4 +1,4 @@
-module SeleniumTestHelper
+module SeleniumMultiBrowser
   def for_each_browser(browser_names=[:firefox, :chrome], &block)
     previous_browser = nil
     at_exit do

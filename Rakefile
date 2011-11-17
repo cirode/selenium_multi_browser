@@ -14,11 +14,11 @@ require 'rake'
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
-  gem.name = "selenium_test_helper"
-  gem.homepage = "http://github.com/cirode/selenium_test_helper"
+  gem.name = "selenium_multi_browser"
+  gem.homepage = "http://github.com/cirode/selenium_multi_browser"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{A collection of simple methods to ease the transition of running selenium tests on multiple browsers}
+  gem.description = gem.summary
   gem.email = "cirode@gmail.com"
   gem.authors = ["Chris Rode"]
   # dependencies defined in Gemfile
@@ -43,7 +43,7 @@ Rake::RDocTask.new do |rdoc|
   version = File.exist?('VERSION') ? File.read('VERSION') : ""
 
   rdoc.rdoc_dir = 'rdoc'
-  rdoc.title = "selenium_test_helper #{version}"
+  rdoc.title = "selenium_multi_browser #{version}"
   rdoc.rdoc_files.include('README*')
   rdoc.rdoc_files.include('lib/**/*.rb')
 end
