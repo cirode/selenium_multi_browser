@@ -1,5 +1,7 @@
+require 'lazy'
+require 'selenium-webdriver'
 module SeleniumMultiBrowser
-  def for_each_browser(browser_names=[:firefox, :chrome], &block)
+  def for_each_browser(browser_names=[:chrome, :firefox], &block)
     previous_browser = nil
     at_exit do
       previous_browser.quit if previous_browser
