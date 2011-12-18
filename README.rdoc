@@ -1,16 +1,11 @@
 = selenium_multi_browser
 
-Description goes here.
-
-== Contributing to selenium_multi_browser
+Many people have asked me recently how to test javascript interfaces to make sure that the functionality is correct across multiple browsers. Selenium is one good library for doing just that, however it isn't immediately apparent how to write a test suite that runs across more than one browser without either duplication of test code, or duplication of boiler-plate code. This is especially true when trying to conform to the expectations set by the commonly used testing frameworks RSpec and Cucumber. selenium_multi_browser contains simple boiler-plate code to help run tests written in these frameworks.
  
-* Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet
-* Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it
-* Fork the project
-* Start a feature/bugfix branch
-* Commit and push until you are happy with your contribution
-* Make sure to add tests for it. This is important so I don't break it in a future version unintentionally.
-* Please try not to mess with the Rakefile, version, or history. If you want to have your own version, or is otherwise necessary, that is fine, but please isolate to its own commit so I can cherry-pick around it.
+ 
+== TODO
+* Create tests in Cucucmber to show the integration possibilities in that environment
+* Test further in Internet Explorer
 
 == Copyright
 
